@@ -44,7 +44,7 @@
             <h1>The Big Surprise</h1>
             <h3>Ooh la la, what's this?</h3>
             <h4>Get your gifts here!</h4>
-            <a href="#" @click="goToHome()" class="btn btn-lg btn-red">Check it out now <span class="ti-arrow-right"></span></a>
+            <a href="#" @click=goToHome() class="btn btn-lg btn-red">Check it out now <span class="ti-arrow-right"></span></a>
             <a href="/shop">Shop</a>
           </div>
           <div class="col-md-5 hidden-xs">
@@ -422,7 +422,7 @@ export default {
   },
   methods: {
     goToHome() {
-      this.$router.push('/shop');
+      this.$router.push({path: '/shop'});
     },
   },
   data() {
