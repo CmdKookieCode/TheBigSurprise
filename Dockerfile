@@ -1,4 +1,4 @@
-FROM nginx:1.17
+FROM quay.io/jitesoft/nginx:latest
 COPY ./nginx.conf /etc/nginx/nginx.conf
 WORKDIR /code
 COPY ./dist .
