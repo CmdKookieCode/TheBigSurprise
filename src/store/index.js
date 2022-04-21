@@ -19,8 +19,7 @@ export default new Vuex.Store({
     },
     endpoints: {
       login: "http://bigsurpriseauth-ucllteam02.ucll-ocp-40cb0df2b03969eabb3fac6e80373775-0000.eu-de.containers.appdomain.cloud/login",
-      products: "http://thebigsurprise-backend-git-ucllteam02.ucll-ocp-40cb0df2b03969eabb3fac6e80373775-0000.eu-de.containers.appdomain.cloud/products"
-    },
+      products: "http://thebigsurprise-backend-git-ucllteam02.ucll-ocp-40cb0df2b03969eabb3fac6e80373775-0000.eu-de.containers.appdomain.cloud/products", },
    },
    getters: {
     products: state => state.products,
