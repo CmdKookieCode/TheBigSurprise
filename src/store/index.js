@@ -18,8 +18,8 @@ export default new Vuex.Store({
       idToken: ""
     },
     endpoints: {
-      login: "http://localhost:3000/login",
-      products: "http://localhost:8000/products"
+      login: "http://bigsurpriseauth-ucllteam02.ucll-ocp-40cb0df2b03969eabb3fac6e80373775-0000.eu-de.containers.appdomain.cloud/login",
+      products: "http://thebigsurprise-backend-git-ucllteam02.ucll-ocp-40cb0df2b03969eabb3fac6e80373775-0000.eu-de.containers.appdomain.cloud/products"
     },
    },
    getters: {
